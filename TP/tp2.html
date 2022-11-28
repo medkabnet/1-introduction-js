@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.2.2/dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.2.2/dist/js/jquery.min.js"></script>
+    <script src="../bootstrap-5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Les opérations Numérique</title>
+</head>
+<body>
+    <div class="container-md border border-dark rounded py-5  my-5">
+        <div class="row">
+            <div class="col text-center">
+                <p class="h1">
+                    Les opérations Numérique
+                </p>
+            </div>
+        </div>
+        <div class="row mt-1">
+            <div class="col">
+                <p>
+                    Les variables ci-dessous sont deja declarer dans notre code js
+                    <ul>
+                        <li><b>num1</b> la variable numérique 1</li>
+                        <li><b>num2</b> la variable numérique 2</li>
+                        <li><b>resulta</b> le resulta de notre operation</li>
+                        <li><b>count</b> la variable pour compter</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 1</b> Modifier la valeur de num1 et num2 puit calculer la somme</p>
+            </div>
+            <div class="col-9">
+                <textarea type="text" class="form-control  input-exe" rows="4"  id-op-num-exe ="1" aria-describedby="validation-1" ></textarea>
+                <div id="validation-1" class="validation-exe d-none" id-op-num-exe="1">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="1">Valider</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 2</b> Modifier la valeur de num1 et num2 puit calculer la diférence</p>
+            </div>
+            <div class="col-9">
+                <textarea type="text" class="form-control input-exe" rows="4"  id-op-num-exe ="2" aria-describedby="validation-2" ></textarea>
+                <div id="validation-2" class="validation-exe d-none" id-op-num-exe="2">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="2">Valider</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 3</b> Modifier la valeur de num1 et num2 puit calculer la multiplication</p>
+            </div>
+            <div class="col-9">
+                <textarea type="text" class="form-control input-exe" rows="4"  id-op-num-exe ="3" aria-describedby="validation-3" ></textarea>
+                <div id="validation-3" class="validation-exe d-none" id-op-num-exe="3">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="3">Valider</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 4</b> Modifier la valeur de num1 et num2 puit calculer la division</p>
+            </div>
+            <div class="col-9">
+                <textarea type="text" class="form-control input-exe" rows="4"  id-op-num-exe ="4" aria-describedby="validation-4" ></textarea>
+                <div id="validation-4" class="validation-exe d-none" id-op-num-exe="4">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="4">Valider</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 5</b> Modifier la valeur de num1 et num2 puit calculer le reste de la division</p>
+            </div>
+            <div class="col-9">
+                <textarea type="text" class="form-control input-exe" rows="4"  id-op-num-exe ="5" aria-describedby="validation-5" ></textarea>
+                <div id="validation-5" class="validation-exe d-none" id-op-num-exe="5">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="5">Valider</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 6</b> Ajouter 6 à la variable count ( count = 1)</p>
+            </div>
+            <div class="col-9">
+                <input type="text" class="form-control input-exe" rows="4"  id-op-num-exe ="6" aria-describedby="validation-6" >
+                <div id="validation-6" class="validation-exe d-none" id-op-num-exe="6">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="6">Valider</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 7</b> Soustraire 3 à la variable count ( count = 7)</p>
+            </div>
+            <div class="col-9">
+                <input type="text" class="form-control input-exe" rows="4"  id-op-num-exe ="7" aria-describedby="validation-7" >
+                <div id="validation-7" class="validation-exe d-none" id-op-num-exe="7">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="7">Valider</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 8</b> Multiplier par 2 la variable count ( count = 12)</p>
+            </div>
+            <div class="col-9">
+                <input type="text" class="form-control input-exe" rows="4"  id-op-num-exe ="8" aria-describedby="validation-8" >
+                <div id="validation-8" class="validation-exe d-none" id-op-num-exe="8">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="8">Valider</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 9</b> Diviser par 2 la variable count ( count = 12)</p>
+            </div>
+            <div class="col-9">
+                <input type="text" class="form-control input-exe" rows="4"  id-op-num-exe ="9" aria-describedby="validation-9" >
+                <div id="validation-9" class="validation-exe d-none" id-op-num-exe="9">
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn w-100 btn-primary btn-op-num-exe" id-op-num-exe="9">Valider</button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <a href="../index.html" class="btn btn-success w-75">
+                    Retour
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="../Script/script.js"></script>
+</body>
+</html>

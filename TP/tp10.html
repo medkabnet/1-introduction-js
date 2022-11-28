@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.2.2/dist/css/bootstrap.min.css">
+    <script src="../bootstrap-5.2.2/dist/js/jquery.min.js"></script>
+    <script src="../bootstrap-5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Pratique</title>
+    <style>
+        table, th, td {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+        th, td {
+            background-color: #96D4D4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-md border border-dark rounded py-5  my-5">
+        <div class="row">
+            <div class="col text-center">
+                <p class="h1">
+                    Pratique
+                </p>
+            </div>
+        </div>
+        <div class="row mt-1">
+            <div class="col">
+                <p>
+                    Pour chaque Exércices Créer un fichier HTML avec un balis Script
+                </p>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 1</b> Créer un programme qui permet de calculer 2<sup>n</sup> sans utiliser la fonction <b>Math.pow()</b></p>
+                <ul>
+                    <li>la puissance est donnée par l'utilisateur</li>
+                    <li>n doit étre supérieur ou égal à 0</li>
+                    <li>Résulta : <br>
+                        <ul>
+                            <li>Dans la console afficher : </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="text-warning"><b>Math.pow(2, n)</b> qui permer de calculer la puissance</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 2</b> Créer un programme qui permet de savoir si un chiffre X est un puissance de 2</p>
+                <ul>
+                    <li>le "x" est donnée par l'utilisateur</li>
+                    <li> Resulta : <br>
+                        <ul>
+                            <li><b>Si X est puissance de 2</b> Dans la console afficher : le chiffre X est puissance de 2 </li>
+                            <li><b>Si X n'est pas puissance de 2</b> Dans la console afficher : le chiffre X n'est pas puissance de 2 </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 3</b> Créer un programme qui permet d'afficher tout les nombre premier entre deux nombre a et b</p>
+                <ul>
+                    <li>le "a" est donnée par l'utilisateur</li>
+                    <li>le "b" est donnée par l'utilisateur</li>
+                    <li>a et b sont positif</li>
+                    <li>le a est inférieur de b</li>
+                    <li> Resulta : <br>
+                        <ul>
+                            <li>X est premier </li>
+                            <li>X n'est pas premier </li>
+                        </ul>
+                    </li>
+                </ul>
+                <p class="text-warning">Les nombres premier c'est les nombres qui ont que deux diviseurs le 1 est eux même Ex : <b>1,3,5,7,11</b></p>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 4</b> Créer un programme qui demonde à l'utilisateur un chiffre et le programme affiche un dessin comme exemple</p>
+                <ul>
+                    <li>Le chiffre est ipair</li>
+                    <li> Ex pour 5  : <br>
+                        <p class="text-success">
+                            *<br>
+                            **<br>
+                            ***<br>
+                            **<br>
+                            *<br>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 5</b> Un organisateur d'événement veux un programme qui gère la vente des ticket Le nombre des ticket disponible et leur prix unitaire son saisi au lancement du programme. Le programme s'arrête si tout les ticket son vendu ou  utilisateur arrête le programme, et à la fin le programme affiche le nombre de ticket vendu et les montant total </p>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3">
+            <div class="col-12">
+                <p> <b>Exercice : 6</b> Une compagnie aerienne souhaite de mettre en place un programme qui permet aux utilisateurs d'ajouter le poid de chaque bagage  et le programme culculera le prix à payer par bagage selon son poid , le prix total , le nombre de valise , le poids moyen par valise </p>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>
+                                Poids < 10Kg
+                            </th>
+                            <th>
+                                Poids >= 10Kg et Poid < 30Kg
+                            </th>
+                            <th>
+                                Poids >= 30Kg
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>
+                                        le premier est gratuit
+                                    </li>
+                                    <li>
+                                        prixBarage = 25
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        prixBarage = (poid - 10) * 10
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>
+                                        prixBarage = (20 * 10) + (poid - 30) * 15
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <a href="../index.html" class="btn btn-success w-75">
+                    Retour
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="../Script/script.js"></script>
+</body>
+</html>
